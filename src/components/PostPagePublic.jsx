@@ -45,7 +45,7 @@ function PostPagePublic() {
             return;
         }
 
-        const response = await fetch(`http://localhost:3000/comments/${commentId}`, {
+        const response = await fetch(`https://blog-backend-production-9082.up.railway.app/comments/${commentId}`, {
             mode: "cors",
             method: "DELETE",
             headers: {
@@ -81,7 +81,7 @@ function PostPagePublic() {
         event.preventDefault();
 
         try {
-            const response = await fetch(`http://localhost:3000/comments/${postId}`, {
+            const response = await fetch(`https://blog-backend-production-9082.up.railway.app/comments/${postId}`, {
                 mode: "cors", 
                 method: "POST",
                 headers: {
@@ -117,7 +117,7 @@ function PostPagePublic() {
     useEffect(() => {
         const getPost = async () => {
             try {
-                const response = await fetch(`http://localhost:3000/posts/${postId}`, {
+                const response = await fetch(`https://blog-backend-production-9082.up.railway.app/posts/${postId}`, {
                     mode: "cors",
                     headers: { "Content-type": "application/json" }
                 });

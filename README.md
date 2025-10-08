@@ -1,5 +1,5 @@
 # MyBlog - Public-Facing React App
-
+(Demo here: https://romain300-blog-public.netlify.app/)
 ## Overview
 MyBlog is a public-facing blogging platform built with **React** and **React Router**. It allows users to **sign up**, **log in**, view posts, comment on posts, and manage their own comments. The app also features authentication-aware routing, a responsive dashboard, and a simple 404 page for unknown routes.
 
